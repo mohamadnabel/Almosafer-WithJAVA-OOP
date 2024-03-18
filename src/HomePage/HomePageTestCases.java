@@ -16,7 +16,7 @@ public class HomePageTestCases extends parameters {
 
 		driver.get(URL);
 		driver.manage().window().maximize();
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(9));
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(4));
 
 //		WebElement popMsg = driver.findElement(By.cssSelector(".sc-iBmynh.izXFRL"));
 //
@@ -29,7 +29,7 @@ public class HomePageTestCases extends parameters {
 
 	}
 
-	@Test(description = "test defult langeuge", priority = 1, enabled = true)
+	@Test(invocationCount = 3, description = "test defult langeuge", priority = 1, enabled = true)
 	public void checkDefultLangugege() {
 		String ActualLang = driver.findElement(By.tagName("html")).getAttribute("lang");
 		Assert.assertEquals(ActualLang, ExpectedLang, "this is for check page defult languege");
@@ -48,6 +48,15 @@ public class HomePageTestCases extends parameters {
 	public void checkContactNumDefult() {
 		String ActualContactNum = driver.findElement(By.tagName("Strong")).getText();
 		Assert.assertEquals(ActualContactNum, ExpextedContactNum);
+
+	}
+
+	@Test(description = "test qitaf logo ", priority = 4, enabled = true)
+	public void checkisDisplayedQitafLogo() {
+		WebElement QitafLogo = driver.findElement(By.xpath("//div[@class='sc-fihHvN eYrDjb']//*[name()='svg']"));
+		Boolean ActualResults = QitafLogo.isDisplayed();
+
+		Assert.assertEquals(ActualResults, true);
 
 	}
 

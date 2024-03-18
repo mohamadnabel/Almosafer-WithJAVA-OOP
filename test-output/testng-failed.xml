@@ -6,8 +6,7 @@
       <class name="HomePage.HomePageTestCases">
         <methods>
           <include name="mySetup"/>
-          <include name="checkDefultLangugege"/>
-          <include name="checkCurrencyDefult"/>
+          <include name="checkisDisplayedQitafLogo"/>
         </methods>
       </class> <!-- HomePage.HomePageTestCases -->
     </classes>
