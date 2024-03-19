@@ -7,6 +7,10 @@
         <methods>
           <include name="mySetup"/>
           <include name="checkisDisplayedQitafLogo"/>
+          <include name="CheckTapNotSelected"/>
+          <include name="checkContactNumDefult"/>
+          <include name="checkDefultLangugege"/>
+          <include name="checkCurrencyDefult"/>
         </methods>
       </class> <!-- HomePage.HomePageTestCases -->
     </classes>

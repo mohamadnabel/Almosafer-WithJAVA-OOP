@@ -1,5 +1,8 @@
 package HomePage;
 
+import java.time.LocalDate;
+//import java.util.Date;
+//import java.sql.Date;
 import java.util.Random;
 
 import org.openqa.selenium.WebDriver;
@@ -12,6 +15,8 @@ public class parameters {
 	Random rand = new Random();
 	String ExpectedLang = "en";
 	String ExpectedCurrency = "SAR";
-	String ExpextedContactNum ="+966554400000";
+	String ExpextedContactNum = "+966554400000";
 	Assertion Assert = new Assertion();
+//	Date currentDate = new Date();
+	LocalDate currentDate = LocalDate.now();
 }

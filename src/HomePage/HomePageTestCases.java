@@ -29,7 +29,7 @@ public class HomePageTestCases extends parameters {
 
 	}
 
-	@Test(invocationCount = 3, description = "test defult langeuge", priority = 1, enabled = true)
+	@Test(invocationCount = 1, description = "test defult langeuge", priority = 1, enabled = true)
 	public void checkDefultLangugege() {
 		String ActualLang = driver.findElement(By.tagName("html")).getAttribute("lang");
 		Assert.assertEquals(ActualLang, ExpectedLang, "this is for check page defult languege");
@@ -57,6 +57,24 @@ public class HomePageTestCases extends parameters {
 		Boolean ActualResults = QitafLogo.isDisplayed();
 
 		Assert.assertEquals(ActualResults, true);
+
+	}
+
+	@Test(description = "test top tap selected by defult", priority = 5, enabled = true)
+	public void CheckTapNotSelected() {
+		WebElement hotelBtn = driver.findElement(By.id("uncontrolled-tab-example-tab-hotels"));
+		String ActualSelected = hotelBtn.getAttribute("aria-selected");
+
+		Assert.assertEquals(ActualSelected, "false");
+
+	}
+
+	@Test
+	public void checkDepatureDate() {
+		int tomorrow = currentDate.plusDays(1).getDayOfMonth();
+		int afterTomorrow = currentDate.plusDays(2).getDayOfMonth();
+		System.out.println(tomorrow);
+		System.out.println(afterTomorrow);
 
 	}
 

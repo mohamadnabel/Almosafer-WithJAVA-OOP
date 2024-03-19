@@ -2,39 +2,39 @@
 <testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-03-19T00:07:22 AST" name="Default suite" finished-at="2024-03-19T00:07:28 AST" duration-ms="5323">
+  <suite started-at="2024-03-19T04:36:27 AST" name="Default suite" finished-at="2024-03-19T04:36:43 AST" duration-ms="16491">
     <groups>
     </groups>
-    <test started-at="2024-03-19T00:07:22 AST" name="Default test" finished-at="2024-03-19T00:07:28 AST" duration-ms="5323">
+    <test started-at="2024-03-19T04:36:27 AST" name="Default test" finished-at="2024-03-19T04:36:43 AST" duration-ms="16491">
       <class name="HomePage.HomePageTestCases">
-        <test-method is-config="true" signature="mySetup()[pri:0, instance:HomePage.HomePageTestCases@65045a87]" started-at="2024-03-19T00:07:22 AST" name="mySetup" finished-at="2024-03-19T00:07:27 AST" duration-ms="5027" status="PASS">
+        <test-method is-config="true" signature="mySetup()[pri:0, instance:HomePage.HomePageTestCases@35a9782c]" started-at="2024-03-19T04:36:27 AST" name="mySetup" finished-at="2024-03-19T04:36:43 AST" duration-ms="16232" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- mySetup -->
-        <test-method signature="checkDefultLangugege()[pri:1, instance:HomePage.HomePageTestCases@65045a87]" started-at="2024-03-19T00:07:27 AST" name="checkDefultLangugege" description="test defult langeuge" finished-at="2024-03-19T00:07:27 AST" duration-ms="52" status="PASS">
+        <test-method signature="checkDepatureDate()[pri:0, instance:HomePage.HomePageTestCases@35a9782c]" started-at="2024-03-19T04:36:43 AST" name="checkDepatureDate" finished-at="2024-03-19T04:36:43 AST" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkDepatureDate -->
+        <test-method signature="checkDefultLangugege()[pri:1, instance:HomePage.HomePageTestCases@35a9782c]" started-at="2024-03-19T04:36:43 AST" name="checkDefultLangugege" description="test defult langeuge" finished-at="2024-03-19T04:36:43 AST" duration-ms="60" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkDefultLangugege -->
-        <test-method signature="checkDefultLangugege()[pri:1, instance:HomePage.HomePageTestCases@65045a87]" started-at="2024-03-19T00:07:27 AST" name="checkDefultLangugege" description="test defult langeuge" finished-at="2024-03-19T00:07:28 AST" duration-ms="38" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkDefultLangugege -->
-        <test-method signature="checkDefultLangugege()[pri:1, instance:HomePage.HomePageTestCases@65045a87]" started-at="2024-03-19T00:07:28 AST" name="checkDefultLangugege" description="test defult langeuge" finished-at="2024-03-19T00:07:28 AST" duration-ms="27" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkDefultLangugege -->
-        <test-method signature="checkCurrencyDefult()[pri:2, instance:HomePage.HomePageTestCases@65045a87]" started-at="2024-03-19T00:07:28 AST" name="checkCurrencyDefult" description="test defult currency" finished-at="2024-03-19T00:07:28 AST" duration-ms="36" status="PASS">
+        <test-method signature="checkCurrencyDefult()[pri:2, instance:HomePage.HomePageTestCases@35a9782c]" started-at="2024-03-19T04:36:43 AST" name="checkCurrencyDefult" description="test defult currency" finished-at="2024-03-19T04:36:43 AST" duration-ms="34" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkCurrencyDefult -->
-        <test-method signature="checkContactNumDefult()[pri:3, instance:HomePage.HomePageTestCases@65045a87]" started-at="2024-03-19T00:07:28 AST" name="checkContactNumDefult" description="test contact number" finished-at="2024-03-19T00:07:28 AST" duration-ms="33" status="PASS">
+        <test-method signature="checkContactNumDefult()[pri:3, instance:HomePage.HomePageTestCases@35a9782c]" started-at="2024-03-19T04:36:43 AST" name="checkContactNumDefult" description="test contact number" finished-at="2024-03-19T04:36:43 AST" duration-ms="23" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkContactNumDefult -->
-        <test-method signature="checkisDisplayedQitafLogo()[pri:4, instance:HomePage.HomePageTestCases@65045a87]" started-at="2024-03-19T00:07:28 AST" name="checkisDisplayedQitafLogo" description="test qitaf logo " finished-at="2024-03-19T00:07:28 AST" duration-ms="48" status="PASS">
+        <test-method signature="checkisDisplayedQitafLogo()[pri:4, instance:HomePage.HomePageTestCases@35a9782c]" started-at="2024-03-19T04:36:43 AST" name="checkisDisplayedQitafLogo" description="test qitaf logo " finished-at="2024-03-19T04:36:43 AST" duration-ms="32" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkisDisplayedQitafLogo -->
+        <test-method signature="CheckTapNotSelected()[pri:5, instance:HomePage.HomePageTestCases@35a9782c]" started-at="2024-03-19T04:36:43 AST" name="CheckTapNotSelected" description="test top tap selected by defult" finished-at="2024-03-19T04:36:43 AST" duration-ms="25" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckTapNotSelected -->
       </class> <!-- HomePage.HomePageTestCases -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
