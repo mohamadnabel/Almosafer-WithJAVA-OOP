@@ -13,7 +13,12 @@ public class parameters {
 	WebDriver driver = new ChromeDriver();
 	String URL = "https://www.almosafer.com/en";
 	Random rand = new Random();
-	String ExpectedLang = "en";
+//	static Array
+	String[] webSite = { "https://www.almosafer.com/ar", "https://www.almosafer.com/en" };
+	int randomLangaugeIndex = rand.nextInt(webSite.length);
+	String expectesEngilshLangauge = "en";
+	String expectesArabicLangauge = "ar";
+
 	String ExpectedCurrency = "SAR";
 	String ExpextedContactNum = "+966554400000";
 	Assertion Assert = new Assertion();

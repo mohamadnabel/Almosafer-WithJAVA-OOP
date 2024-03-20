@@ -3,16 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="HomePage.HomePageTestCases">
+      <class name="hotelSearchTest.bookingHotelTest">
         <methods>
+          <include name="myTest"/>
           <include name="mySetup"/>
-          <include name="checkisDisplayedQitafLogo"/>
-          <include name="CheckTapNotSelected"/>
-          <include name="checkContactNumDefult"/>
-          <include name="checkDefultLangugege"/>
-          <include name="checkCurrencyDefult"/>
         </methods>
-      </class> <!-- HomePage.HomePageTestCases -->
+      </class> <!-- hotelSearchTest.bookingHotelTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
