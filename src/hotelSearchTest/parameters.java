@@ -11,5 +11,6 @@ public class parameters {
 	String[] ArabicCities = { "دبي", "جدة" };
 	String[] EnglishCities = { "dubai", "jeddah", "riyadh" };
 	Random rand = new Random();
-	
+	int randomVisitor = rand.nextInt(2);
+
 }
