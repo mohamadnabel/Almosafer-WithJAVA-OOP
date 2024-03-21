@@ -1,27 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-03-20T20:01:04 AST" name="Default suite" finished-at="2024-03-20T20:01:12 AST" duration-ms="8155">
+  <suite started-at="2024-03-21T03:11:32 AST" name="Default suite" finished-at="2024-03-21T03:12:01 AST" duration-ms="28898">
     <groups>
       <group name="testNg">
-        <method signature="bookingHotelTest.myTest()[pri:1, instance:hotelSearchTest.bookingHotelTest@24d09c1]" name="myTest" class="hotelSearchTest.bookingHotelTest"/>
+        <method signature="bookingHotelTest.myTest()[pri:1, instance:hotelSearchTest.bookingHotelTest@50ecde95]" name="myTest" class="hotelSearchTest.bookingHotelTest"/>
       </group> <!-- testNg -->
     </groups>
-    <test started-at="2024-03-20T20:01:04 AST" name="Default test" finished-at="2024-03-20T20:01:12 AST" duration-ms="8155">
+    <test started-at="2024-03-21T03:11:32 AST" name="Default test" finished-at="2024-03-21T03:12:01 AST" duration-ms="28898">
       <class name="hotelSearchTest.bookingHotelTest">
-        <test-method is-config="true" signature="mySetup()[pri:0, instance:hotelSearchTest.bookingHotelTest@24d09c1]" started-at="2024-03-20T20:01:04 AST" name="mySetup" finished-at="2024-03-20T20:01:07 AST" duration-ms="2695" status="PASS">
+        <test-method is-config="true" signature="mySetup()[pri:0, instance:hotelSearchTest.bookingHotelTest@50ecde95]" started-at="2024-03-21T03:11:32 AST" name="mySetup" finished-at="2024-03-21T03:11:37 AST" duration-ms="4957" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- mySetup -->
-        <test-method signature="myTest()[pri:1, instance:hotelSearchTest.bookingHotelTest@24d09c1]" started-at="2024-03-20T20:01:07 AST" name="myTest" finished-at="2024-03-20T20:01:08 AST" duration-ms="726" status="PASS">
+        <test-method signature="myTest()[pri:1, instance:hotelSearchTest.bookingHotelTest@50ecde95]" started-at="2024-03-21T03:11:37 AST" name="myTest" finished-at="2024-03-21T03:11:38 AST" duration-ms="717" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- myTest -->
-        <test-method signature="randomSelectVisiterNum()[pri:2, instance:hotelSearchTest.bookingHotelTest@24d09c1]" started-at="2024-03-20T20:01:08 AST" name="randomSelectVisiterNum" finished-at="2024-03-20T20:01:12 AST" duration-ms="4691" status="PASS">
+        <test-method signature="randomSelectVisiterNum()[pri:2, instance:hotelSearchTest.bookingHotelTest@50ecde95]" started-at="2024-03-21T03:11:38 AST" name="randomSelectVisiterNum" finished-at="2024-03-21T03:11:50 AST" duration-ms="12150" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- randomSelectVisiterNum -->
+        <test-method signature="pageFullyCompleted()[pri:3, instance:hotelSearchTest.bookingHotelTest@50ecde95]" started-at="2024-03-21T03:11:50 AST" name="pageFullyCompleted" finished-at="2024-03-21T03:12:00 AST" duration-ms="10054" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageFullyCompleted -->
+        <test-method signature="checkLowestFunctionSearch()[pri:4, instance:hotelSearchTest.bookingHotelTest@50ecde95]" started-at="2024-03-21T03:12:00 AST" name="checkLowestFunctionSearch" finished-at="2024-03-21T03:12:01 AST" duration-ms="967" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkLowestFunctionSearch -->
       </class> <!-- hotelSearchTest.bookingHotelTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->

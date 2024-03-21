@@ -5,7 +5,7 @@
     <classes>
       <class name="hotelSearchTest.bookingHotelTest">
         <methods>
-          <include name="myTest"/>
+          <include name="checkLowestFunctionSearch"/>
           <include name="mySetup"/>
         </methods>
       </class> <!-- hotelSearchTest.bookingHotelTest -->
