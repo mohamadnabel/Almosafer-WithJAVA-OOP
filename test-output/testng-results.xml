@@ -1,36 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-03-21T03:11:32 AST" name="Default suite" finished-at="2024-03-21T03:12:01 AST" duration-ms="28898">
+  <suite started-at="2024-03-24T01:28:39 AST" name="Default suite" finished-at="2024-03-24T01:28:53 AST" duration-ms="13779">
     <groups>
-      <group name="testNg">
-        <method signature="bookingHotelTest.myTest()[pri:1, instance:hotelSearchTest.bookingHotelTest@50ecde95]" name="myTest" class="hotelSearchTest.bookingHotelTest"/>
-      </group> <!-- testNg -->
     </groups>
-    <test started-at="2024-03-21T03:11:32 AST" name="Default test" finished-at="2024-03-21T03:12:01 AST" duration-ms="28898">
-      <class name="hotelSearchTest.bookingHotelTest">
-        <test-method is-config="true" signature="mySetup()[pri:0, instance:hotelSearchTest.bookingHotelTest@50ecde95]" started-at="2024-03-21T03:11:32 AST" name="mySetup" finished-at="2024-03-21T03:11:37 AST" duration-ms="4957" status="PASS">
+    <test started-at="2024-03-24T01:28:39 AST" name="Default test" finished-at="2024-03-24T01:28:53 AST" duration-ms="13779">
+      <class name="multi_flights_test.testTowMultiFlights">
+        <test-method is-config="true" signature="mySetup()[pri:0, instance:multi_flights_test.testTowMultiFlights@54c62d71]" started-at="2024-03-24T01:28:39 AST" name="mySetup" finished-at="2024-03-24T01:28:42 AST" duration-ms="3159" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- mySetup -->
-        <test-method signature="myTest()[pri:1, instance:hotelSearchTest.bookingHotelTest@50ecde95]" started-at="2024-03-21T03:11:37 AST" name="myTest" finished-at="2024-03-21T03:11:38 AST" duration-ms="717" status="PASS">
+        <test-method signature="testTow()[pri:1, instance:multi_flights_test.testTowMultiFlights@54c62d71]" started-at="2024-03-24T01:28:42 AST" name="testTow" finished-at="2024-03-24T01:28:43 AST" duration-ms="419" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- myTest -->
-        <test-method signature="randomSelectVisiterNum()[pri:2, instance:hotelSearchTest.bookingHotelTest@50ecde95]" started-at="2024-03-21T03:11:38 AST" name="randomSelectVisiterNum" finished-at="2024-03-21T03:11:50 AST" duration-ms="12150" status="PASS">
+        </test-method> <!-- testTow -->
+        <test-method signature="randomCitiesTest()[pri:2, instance:multi_flights_test.testTowMultiFlights@54c62d71]" started-at="2024-03-24T01:28:43 AST" name="randomCitiesTest" finished-at="2024-03-24T01:28:46 AST" duration-ms="3501" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- randomSelectVisiterNum -->
-        <test-method signature="pageFullyCompleted()[pri:3, instance:hotelSearchTest.bookingHotelTest@50ecde95]" started-at="2024-03-21T03:11:50 AST" name="pageFullyCompleted" finished-at="2024-03-21T03:12:00 AST" duration-ms="10054" status="PASS">
+        </test-method> <!-- randomCitiesTest -->
+        <test-method signature="randomNumberOfFlight()[pri:3, instance:multi_flights_test.testTowMultiFlights@54c62d71]" started-at="2024-03-24T01:28:46 AST" name="randomNumberOfFlight" finished-at="2024-03-24T01:28:53 AST" duration-ms="6636" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- pageFullyCompleted -->
-        <test-method signature="checkLowestFunctionSearch()[pri:4, instance:hotelSearchTest.bookingHotelTest@50ecde95]" started-at="2024-03-21T03:12:00 AST" name="checkLowestFunctionSearch" finished-at="2024-03-21T03:12:01 AST" duration-ms="967" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkLowestFunctionSearch -->
-      </class> <!-- hotelSearchTest.bookingHotelTest -->
+        </test-method> <!-- randomNumberOfFlight -->
+      </class> <!-- multi_flights_test.testTowMultiFlights -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

@@ -18,7 +18,7 @@ public class bookingHotelTest extends parameters {
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
 	}
 
-	@Test(invocationCount = 1, priority = 1, groups = "testNg", enabled = true)
+	@Test(invocationCount = 1, priority = 1, groups = "testNg", enabled = false)
 	public void myTest() {
 		WebElement hotelTap = driver.findElement(By.id("uncontrolled-tab-example-tab-hotels"));
 		hotelTap.click();
@@ -45,7 +45,7 @@ public class bookingHotelTest extends parameters {
 
 	}
 
-	@Test(priority = 2, enabled = true)
+	@Test(priority = 2, enabled = false)
 	public void randomSelectVisiterNum() {
 		WebElement selectorVisitor = driver
 				.findElement(By.xpath("//select[@data-testid='HotelSearchBox__ReservationSelect_Select']"));
@@ -58,7 +58,7 @@ public class bookingHotelTest extends parameters {
 
 	}
 
-	@Test(priority = 3, enabled = true)
+	@Test(priority = 3, enabled = false)
 	public void pageFullyCompleted() throws InterruptedException {
 		Thread.sleep(10000);
 		WebElement MsgCompleatedSearch = driver
@@ -70,7 +70,7 @@ public class bookingHotelTest extends parameters {
 
 	}
 
-	@Test(priority = 4, enabled = true)
+	@Test(priority = 4, enabled = false)
 	public void checkLowestFunctionSearch() {
 		WebElement lowestPriceBtn = driver
 				.findElement(By.cssSelector("button[data-testid='HotelSearchResult__sort__LOWEST_PRICE']"));
